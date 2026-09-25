@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Engineering Foundation | Mohammad Hossein Yaghubi</title>
+  <meta name="description" content="Learn about Mohammad Hossein Yaghubi's engineering foundation, power engineering discipline, clean architecture principles, and professional journey.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body data-page-title-key="about_page_title">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand-logo">
+        <img src="./assets/images/avatar_mhy.jpg" alt="Mohammad Hossein Yaghubi" class="brand-avatar" />
+        <div class="brand-title">
+          <span class="brand-name">MH.Yaghubi</span>
+          <span class="brand-tag">Django Architect</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop">
+        <a href="./about.html" class="nav-link active" data-i18n="nav_about">About</a>
+        <a href="./index.html#skills" class="nav-link" data-i18n="nav_skills">Skills</a>
+        <a href="./index.html#experience" class="nav-link" data-i18n="nav_experience">Experience</a>
+        <a href="./index.html#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="./products.html" class="nav-link" data-i18n="nav_products">Products & Services</a>
+        <a href="./contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header-actions">
+        <button class="lang-toggle-btn" aria-label="Toggle Language">
+          <i class="fa-solid fa-globe"></i>
+          <span class="lang-btn-text">فا | فارسی</span>
+        </button>
+
+        <a href="./contact.html" class="btn-primary" data-i18n="nav_get_in_touch">
+          Get in Touch <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <button class="mobile-menu-btn" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer">
+      <a href="./index.html" class="nav-link"><span>Home</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./about.html" class="nav-link active"><span data-i18n="nav_about">About</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./products.html" class="nav-link"><span data-i18n="nav_products">Products & Services</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./contact.html" class="nav-link"><span data-i18n="nav_contact">Contact</span> <i class="fa-solid fa-angle-right"></i></a>
+      <div class="mobile-drawer-footer">
+        <a href="./contact.html" class="btn-primary" style="width:100%; justify-content:center;" data-i18n="nav_get_in_touch">
+          Get in Touch <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="section-wrapper" style="padding-top: 3.5rem;">
+    <div class="container">
+      <div class="section-tag" data-i18n="about_page_tag">ARCHITECTURAL PROFILE</div>
+      <h1 class="section-title" data-i18n="about_page_title">Engineering Roots & System Discipline</h1>
+      <p class="section-subtitle" data-i18n="about_page_subtitle">
+        A detailed look into the methodology, electrical engineering foundation, and backend architectural standards that govern my software delivery.
+      </p>
+
+      <!-- Grid Overview -->
+      <div class="about-grid" style="margin-bottom: 3.5rem;">
+        
+        <!-- Left: Deep Philosophy -->
+        <div class="glass-panel about-card">
+          <div>
+            <div class="about-card-header">
+              <span class="card-pill-tag" data-i18n="philosophy_tag">Philosophy & Standards</span>
+              <span class="card-icon-ghost"><i class="fa-solid fa-microchip"></i></span>
+            </div>
+            <h2 class="about-card-title" data-i18n="philosophy_title">Clean Architecture & Systemic Engineering</h2>
+            <p class="about-card-body" data-i18n="philosophy_desc">
+              I craft backends that prioritize long-term maintainability, fault tolerance, and expressive domain modeling. Writing Python is more than just delivering functioning endpoints: it is about modular SOLID abstractions, predictable database concurrency, and clean API contracts that empower front-end and cross-platform teams.
+            </p>
+
+            <div style="font-size:0.95rem; line-height:1.75; color:var(--text-secondary); margin-bottom:1.5rem;">
+              <p style="margin-bottom:1rem;">
+                In high-load software systems, technical debt compounds rapidly. My engineering doctrine enforces:
+              </p>
+              <ul style="list-style:none; display:flex; flex-direction:column; gap:0.65rem;">
+                <li style="display:flex; align-items:flex-start; gap:0.6rem;">
+                  <i class="fa-solid fa-check" style="color:#10B981; margin-top:0.25rem;"></i>
+                  <span><strong>Zero N+1 Query Tolerances:</strong> Rigorous query auditing with <code>select_related</code>, <code>prefetch_related</code>, and dedicated read projections.</span>
+                </li>
+                <li style="display:flex; align-items:flex-start; gap:0.6rem;">
+                  <i class="fa-solid fa-check" style="color:#10B981; margin-top:0.25rem;"></i>
+                  <span><strong>Decoupled Domain Layer:</strong> Business logic isolated from Django view controllers and framework ORM models for effortless testability.</span>
+                </li>
+                <li style="display:flex; align-items:flex-start; gap:0.6rem;">
+                  <i class="fa-solid fa-check" style="color:#10B981; margin-top:0.25rem;"></i>
+                  <span><strong>Asynchronous Offloading:</strong> Heavy computations and email/notification dispatches routed through Celery and Redis workers.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-features-row">
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-cube"></i> <span data-i18n="feature_solid_title">SOLID & DRY</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_solid_desc">Decoupled logic & testable modules</div>
+            </div>
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-arrows-spin"></i> <span data-i18n="feature_agile_title">Agile Flow</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_agile_desc">Rapid iterations, stable contracts</div>
+            </div>
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-server"></i> <span data-i18n="feature_e2e_title">End-to-End</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_e2e_desc">From models to seamless deployments</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Academic Credentials -->
+        <div class="glass-panel about-card">
+          <div>
+            <div class="about-card-header">
+              <span class="card-pill-tag" data-i18n="academic_tag">Academic Credentials</span>
+              <span class="card-icon-ghost"><i class="fa-solid fa-graduation-cap"></i></span>
+            </div>
+
+            <div style="font-size:2.2rem; color:#10B981; margin-bottom:1rem;">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <h3 class="about-card-title" data-i18n="academic_degree">Bachelor of Power Engineering</h3>
+            <div style="font-size:1.05rem; font-weight:700; color:var(--cyan); margin-bottom:1rem;" data-i18n="academic_uni">
+              Sadjad University of Technology
+            </div>
+
+            <p class="about-card-body" data-i18n="academic_desc">
+              Rigorous foundation in advanced mathematical modeling, transient system dynamics, and algorithmic problem solving. Translated daily into complex backend state machines and optimized data pipelines.
+            </p>
+
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-glass); border-radius: 0.75rem; padding: 1rem; margin-top: 1.25rem;">
+              <div style="font-family:var(--font-mono); font-size:0.75rem; color:#38BDF8; margin-bottom:0.4rem;">
+                TRANSFERABLE RIGOR
+              </div>
+              <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.6;">
+                Power grids demand sub-cycle fault detection, continuous state equilibrium, and zero unexpected outages. That exact engineering mindset prevents race conditions, deadlocks, and cascading outages in enterprise web services.
+              </p>
+            </div>
+          </div>
+
+          <div class="academic-badge">
+            <i class="fa-solid fa-circle-check"></i>
+            <span data-i18n="academic_verified">Analytical Foundation Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Journey Section -->
+      <div style="margin-top: 2rem;">
+        <div class="section-tag" data-i18n="sec2_tag">02 // JOURNEY & IMPACT</div>
+        <h2 class="section-title" data-i18n="sec2_title">Professional Experience</h2>
+        <p class="section-subtitle" data-i18n="sec2_subtitle">
+          Proven track record building commercial software, real-world educational tools, and custom client platforms.
+        </p>
+
+        <div class="experience-grid">
+          <!-- ATI Holding -->
+          <div class="glass-panel experience-card">
+            <div>
+              <div class="exp-header">
+                <span class="exp-company-tag" data-i18n="exp1_type">Holding / Enterprise</span>
+                <span class="exp-role-tag" data-i18n="exp1_role">Core Team</span>
+              </div>
+              <h3 class="exp-company-name" data-i18n="exp1_company">ATI Holding</h3>
+              <div class="exp-title" data-i18n="exp1_title">Backend & Django Architecture</div>
+              <p class="exp-description" data-i18n="exp1_desc">
+                Architected mission-critical backend micro-services, consolidated corporate databases, and designed resilient REST interfaces powering organizational tools.
+              </p>
+              <ul class="exp-bullet-list">
+                <li class="exp-bullet-item"><i class="fa-solid fa-code"></i> <span data-i18n="exp1_b1">Django REST API optimization & schema design</span></li>
+                <li class="exp-bullet-item"><i class="fa-solid fa-database"></i> <span data-i18n="exp1_b2">Relational normalization with PostgreSQL & caching</span></li>
+              </ul>
+            </div>
+            <div class="tags-row">
+              <span class="tag-badge">Django</span>
+              <span class="tag-badge">PostgreSQL</span>
+              <span class="tag-badge">Architecture</span>
+            </div>
+          </div>
+
+          <!-- Darsman -->
+          <div class="glass-panel experience-card">
+            <div>
+              <div class="exp-header">
+                <span class="exp-company-tag" data-i18n="exp2_type">EdTech Platform</span>
+                <span class="exp-role-tag" data-i18n="exp2_role">Software Dev</span>
+              </div>
+              <h3 class="exp-company-name" data-i18n="exp2_company">Darsman</h3>
+              <div class="exp-title" data-i18n="exp2_title">Python & Web Development</div>
+              <p class="exp-description" data-i18n="exp2_desc">
+                Spearheaded interactive educational platform capabilities, automated learning management system modules, and built developer tutorials.
+              </p>
+              <ul class="exp-bullet-list">
+                <li class="exp-bullet-item"><i class="fa-solid fa-laptop-code"></i> <span data-i18n="exp2_b1">Interactive Python web features & modules</span></li>
+                <li class="exp-bullet-item"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="exp2_b2">Curriculum technical tools & student portals</span></li>
+              </ul>
+            </div>
+            <div class="tags-row">
+              <span class="tag-badge">Python</span>
+              <span class="tag-badge">Web Tech</span>
+              <span class="tag-badge">EdTech</span>
+            </div>
+          </div>
+
+          <!-- Freelancing -->
+          <div class="glass-panel experience-card">
+            <div>
+              <div class="exp-header">
+                <span class="exp-company-tag" data-i18n="exp3_type">Global Solutions</span>
+                <span class="exp-role-tag" data-i18n="exp3_role">Independent</span>
+              </div>
+              <h3 class="exp-company-name" data-i18n="exp3_company">Freelancing</h3>
+              <div class="exp-title" data-i18n="exp3_title">Full-Stack Solutions & Custom Systems</div>
+              <p class="exp-description" data-i18n="exp3_desc">
+                Delivering bespoke web tools, robust financial algorithm indicators (PineScript), custom web scrapers, and cross-platform desktop UI tools.
+              </p>
+              <ul class="exp-bullet-list">
+                <li class="exp-bullet-item"><i class="fa-solid fa-cubes"></i> <span data-i18n="exp3_b1">End-to-end bespoke customer software platforms</span></li>
+                <li class="exp-bullet-item"><i class="fa-solid fa-chart-line"></i> <span data-i18n="exp3_b2">Algorithmic trading scripts & data scrapers</span></li>
+              </ul>
+            </div>
+            <div class="tags-row">
+              <span class="tag-badge">PineScript</span>
+              <span class="tag-badge">Web Scraping</span>
+              <span class="tag-badge">Full-Stack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Hire Action Banner -->
+      <div class="telegram-order-card" style="margin-top: 3.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1.5rem;">
+          <div>
+            <div class="tg-badge">
+              <i class="fa-brands fa-telegram"></i> Direct Line
+            </div>
+            <h3 style="font-family:var(--font-heading); font-size:1.45rem; color:#FFF; margin-bottom:0.35rem;">
+              Ready to architect or scale your next project?
+            </h3>
+            <p style="color:var(--text-secondary); font-size:0.95rem;">
+              Direct consultation, codebase audits, and backend architecture contracts.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="./contact.html" class="btn-primary">
+              Contact & Order <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <button class="btn-glass btn-copy-email">
+              <i class="fa-regular fa-copy"></i> Copy Email
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>MH.Yaghubi <span style="font-size:0.85rem; color:var(--teal-emerald); font-weight:400;">Creative Django Developer</span></h4>
+          <p data-i18n="footer_desc">Architecting high-concurrency backend services, asynchronous pipelines, and reactive technical web platforms.</p>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./about.html" class="nav-link active" data-i18n="nav_about">About</a>
+          <a href="./products.html" class="nav-link" data-i18n="nav_products">Products</a>
+          <a href="./contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <span class="pulse-dot"></span>
+          <span data-i18n="footer_django_rigor">Designed & Engineered with Django Rigor</span>
+        </div>
+        <div data-i18n="footer_copyright">
+          © 2025 Mohammad Hossein Yaghubi. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-notice"></div>
+
+  <!-- Scripts -->
+  <script src="./assets/js/i18n.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Hossein Yaghubi | Creative Django Developer & Software Architect</title>
+  <meta name="description" content="Portfolio of Mohammad Hossein Yaghubi — Creative Django Developer and Software Architect specializing in scalable, high-throughput backend services and clean architecture.">
+  <meta property="og:title" content="Mohammad Hossein Yaghubi | Creative Django Developer">
+  <meta property="og:description" content="High-concurrency backend services, asynchronous task orchestrations, and clean domain-driven architecture.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono, Vazirmatn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body data-page-title-key="hero_title">
+
+  <!-- ================= SITE HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand-logo">
+        <img src="./assets/images/avatar_mhy.jpg" alt="Mohammad Hossein Yaghubi" class="brand-avatar" />
+        <div class="brand-title">
+          <span class="brand-name">MH.Yaghubi</span>
+          <span class="brand-tag">Django Architect</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop">
+        <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a>
+        <a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a>
+        <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="./products.html" class="nav-link" data-i18n="nav_products">Products & Services</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header-actions">
+        <!-- Language Switcher -->
+        <button class="lang-toggle-btn" aria-label="Toggle Language" title="تغییر زبان به فارسی / Switch language">
+          <i class="fa-solid fa-globe"></i>
+          <span class="lang-btn-text">فا | فارسی</span>
+        </button>
+
+        <!-- CTA -->
+        <a href="#contact" class="btn-primary" data-i18n="nav_get_in_touch">
+          Get in Touch <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-menu-btn" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer">
+      <a href="#about" class="nav-link"><span data-i18n="nav_about">About</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#skills" class="nav-link"><span data-i18n="nav_skills">Skills</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#experience" class="nav-link"><span data-i18n="nav_experience">Experience</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#projects" class="nav-link"><span data-i18n="nav_projects">Projects</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./products.html" class="nav-link"><span data-i18n="nav_products">Products & Services</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./about.html" class="nav-link"><span data-i18n="about_page_title">Engineering Roots</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="./contact.html" class="nav-link"><span data-i18n="contact_page_title">Order & Hire</span> <i class="fa-solid fa-angle-right"></i></a>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn-primary" style="width:100%; justify-content:center;" data-i18n="nav_get_in_touch">
+          Get in Touch <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <!-- Left Hero Column -->
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span data-i18n="hero_status">AVAILABLE FOR ARCHITECTURE & HIGH-IMPACT BACKEND</span>
+        </div>
+
+        <div class="hero-greeting" data-i18n="hero_greeting">Hey there!</div>
+        <h1 class="hero-title" data-i18n="hero_name">I'm Mohammad Hossein Yaghubi</h1>
+        
+        <div class="hero-subtitle">
+          <span data-i18n="hero_title">Creative Django Developer</span>
+          <span class="sub-role" data-i18n="hero_subtitle_role">& Software Architect</span>
+        </div>
+
+        <p class="hero-description" data-i18n="hero_desc">
+          Specializing in scalable, high-throughput backend services, asynchronous task orchestrations, and clean domain-driven architecture. Bridging computational electrical rigor with modern Python craft to build ultra-resilient web ecosystems.
+        </p>
+
+        <!-- Metric Badges -->
+        <div class="metrics-row">
+          <div class="metric-card">
+            <div class="metric-val">3+</div>
+            <div class="metric-label" data-i18n="stat_stacks">Enterprise Stacks</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">100%</div>
+            <div class="metric-label" data-i18n="stat_solid">SOLID & Clean Code</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">&lt;45ms</div>
+            <div class="metric-label" data-i18n="stat_latency">ORM Query Latency</div>
+          </div>
+        </div>
+
+        <!-- Hero CTAs -->
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn-primary" data-i18n="btn_explore_projects">
+            Explore Projects ↓
+          </a>
+          <a href="#contact" class="btn-glass" data-i18n="btn_contact_me">
+            <i class="fa-regular fa-envelope"></i> Contact Me
+          </a>
+          <button class="email-copy-pill" title="Click to copy email">
+            <i class="fa-regular fa-copy"></i>
+            <span>m.h.yaghubi.info@gmail.com</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Terminal Window -->
+      <div class="hero-terminal-wrap">
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <div class="mac-controls">
+              <span class="mac-dot dot-red"></span>
+              <span class="mac-dot dot-yellow"></span>
+              <span class="mac-dot dot-green"></span>
+            </div>
+            <div class="terminal-tab">
+              <i class="fa-brands fa-python" style="color:#38BDF8"></i>
+              <span data-i18n="terminal_tab_title">views.py — portfolio_core</span>
+            </div>
+            <div class="terminal-actions">
+              <span class="terminal-pill-badge" data-i18n="terminal_badge">Django 5.x</span>
+              <button class="terminal-btn terminal-copy-btn" title="Copy code"><i class="fa-regular fa-copy"></i></button>
+              <button class="terminal-btn terminal-run-btn" title="Run Django check"><i class="fa-solid fa-play"></i></button>
+            </div>
+          </div>
+
+          <pre class="terminal-code-body"><code><span class="code-keyword">from</span> django.views.generic <span class="code-keyword">import</span> <span class="code-class">View</span>
+<span class="code-keyword">from</span> rest_framework.response <span class="code-keyword">import</span> <span class="code-class">Response</span>
+
+<span class="code-keyword">class</span> <span class="code-class">MohammadHosseinYaghubi</span>(<span class="code-class">View</span>):
+    <span class="code-comment"># Engineering scalable backends</span>
+    role = <span class="code-str">"Creative Django Developer"</span>
+    principles = [<span class="code-str">"SOLID"</span>, <span class="code-str">"Clean Architecture"</span>]
+
+    <span class="code-keyword">def</span> <span class="code-func">get_stack_status</span>(<span class="code-var">self</span>, request):
+        <span class="code-keyword">return</span> <span class="code-class">Response</span>({
+            <span class="code-str">"engine"</span>: <span class="code-str">"Python / Django REST"</span>,
+            <span class="code-str">"database"</span>: [<span class="code-str">"PostgreSQL"</span>, <span class="code-str">"MySQL"</span>],
+            <span class="code-str">"reactive"</span>: <span class="code-keyword">True</span>,
+            <span class="code-str">"impact"</span>: <span class="code-str">"High-Velocity Delivery"</span>
+        })</code></pre>
+
+          <div class="terminal-footer">
+            <div class="terminal-cmd">
+              <span class="caret">&gt;</span> python manage.py check --deploy
+            </div>
+            <div class="terminal-status-ok">
+              <i class="fa-solid fa-circle-check"></i>
+              <span data-i18n="terminal_status_ok">OK: 0 ISSUES</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Power Engineering Badge -->
+        <div class="power-eng-badge">
+          <div class="badge-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <div>
+            <div class="badge-text-title" data-i18n="power_eng_title">Power Engineering</div>
+            <div class="badge-text-sub" data-i18n="power_eng_sub">Analytical Rigor Applied to Software</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 01 // ABOUT & CORE FOUNDATION ================= -->
+  <section id="about" class="section-wrapper">
+    <div class="container">
+      <div class="section-tag" data-i18n="sec1_tag">01 // PROFILE OVERVIEW</div>
+      <h2 class="section-title" data-i18n="sec1_title">About & Core Foundation</h2>
+      <p class="section-subtitle" data-i18n="sec1_subtitle">
+        Blending mathematical system discipline from electrical power engineering with modern, decoupled backend development.
+      </p>
+
+      <div class="about-grid">
+        <!-- Card 1: Philosophy & Standards -->
+        <div class="glass-panel about-card">
+          <div>
+            <div class="about-card-header">
+              <span class="card-pill-tag" data-i18n="philosophy_tag">Philosophy & Standards</span>
+              <span class="card-icon-ghost"><i class="fa-regular fa-compass"></i></span>
+            </div>
+            <h3 class="about-card-title" data-i18n="philosophy_title">Clean Architecture & Systemic Engineering</h3>
+            <p class="about-card-body" data-i18n="philosophy_desc">
+              I craft backends that prioritize long-term maintainability, fault tolerance, and expressive domain modeling. Writing Python is more than just delivering functioning endpoints: it is about modular SOLID abstractions, predictable database concurrency, and clean API contracts that empower front-end and cross-platform teams.
+            </p>
+          </div>
+
+          <div class="about-features-row">
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-cube"></i> <span data-i18n="feature_solid_title">SOLID & DRY</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_solid_desc">Decoupled logic & testable modules</div>
+            </div>
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-arrows-spin"></i> <span data-i18n="feature_agile_title">Agile Flow</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_agile_desc">Rapid iterations, stable contracts</div>
+            </div>
+            <div class="feature-micro-item">
+              <div class="feature-micro-title"><i class="fa-solid fa-server"></i> <span data-i18n="feature_e2e_title">End-to-End</span></div>
+              <div class="feature-micro-desc" data-i18n="feature_e2e_desc">From models to seamless deployments</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Academic Credentials -->
+        <div class="glass-panel about-card">
+          <div>
+            <div class="about-card-header">
+              <span class="card-pill-tag" data-i18n="academic_tag">Academic Credentials</span>
+              <span class="card-icon-ghost"><i class="fa-solid fa-graduation-cap"></i></span>
+            </div>
+            <div style="font-size:1.8rem; color:#10B981; margin-bottom:0.75rem;">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <h3 class="about-card-title" data-i18n="academic_degree">Bachelor of Power Engineering</h3>
+            <div style="font-size:0.95rem; font-weight:600; color:var(--cyan); margin-bottom:0.85rem;" data-i18n="academic_uni">
+              Sadjad University of Technology
+            </div>
+            <p class="about-card-body" data-i18n="academic_desc">
+              Rigorous foundation in advanced mathematical modeling, transient system dynamics, and algorithmic problem solving. Translated daily into complex backend state machines and optimized data pipelines.
+            </p>
+          </div>
+
+          <div class="academic-badge">
+            <i class="fa-solid fa-circle-check"></i>
+            <span data-i18n="academic_verified">Analytical Foundation Verified</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 02 // PROFESSIONAL EXPERIENCE ================= -->
+  <section id="experience" class="section-wrapper" style="background: rgba(11, 15, 23, 0.4);">
+    <div class="container">
+      <div class="section-tag" data-i18n="sec2_tag">02 // JOURNEY & IMPACT</div>
+      <h2 class="section-title" data-i18n="sec2_title">Professional Experience</h2>
+      <p class="section-subtitle" data-i18n="sec2_subtitle">
+        Proven track record building commercial software, real-world educational tools, and custom client platforms.
+      </p>
+
+      <div class="experience-grid">
+        <!-- Exp 1: ATI Holding -->
+        <div class="glass-panel experience-card">
+          <div>
+            <div class="exp-header">
+              <span class="exp-company-tag" data-i18n="exp1_type">Holding / Enterprise</span>
+              <span class="exp-role-tag" data-i18n="exp1_role">Core Team</span>
+            </div>
+            <h3 class="exp-company-name" data-i18n="exp1_company">ATI Holding</h3>
+            <div class="exp-title" data-i18n="exp1_title">Backend & Django Architecture</div>
+            <p class="exp-description" data-i18n="exp1_desc">
+              Architected mission-critical backend micro-services, consolidated corporate databases, and designed resilient REST interfaces powering organizational tools.
+            </p>
+            <ul class="exp-bullet-list">
+              <li class="exp-bullet-item"><i class="fa-solid fa-code"></i> <span data-i18n="exp1_b1">Django REST API optimization & schema design</span></li>
+              <li class="exp-bullet-item"><i class="fa-solid fa-database"></i> <span data-i18n="exp1_b2">Relational normalization with PostgreSQL & caching</span></li>
+            </ul>
+          </div>
+          <div class="tags-row">
+            <span class="tag-badge">Django</span>
+            <span class="tag-badge">PostgreSQL</span>
+            <span class="tag-badge">Architecture</span>
+          </div>
+        </div>
+
+        <!-- Exp 2: Darsman -->
+        <div class="glass-panel experience-card">
+          <div>
+            <div class="exp-header">
+              <span class="exp-company-tag" data-i18n="exp2_type">EdTech Platform</span>
+              <span class="exp-role-tag" data-i18n="exp2_role">Software Dev</span>
+            </div>
+            <h3 class="exp-company-name" data-i18n="exp2_company">Darsman</h3>
+            <div class="exp-title" data-i18n="exp2_title">Python & Web Development</div>
+            <p class="exp-description" data-i18n="exp2_desc">
+              Spearheaded interactive educational platform capabilities, automated learning management system modules, and built developer tutorials.
+            </p>
+            <ul class="exp-bullet-list">
+              <li class="exp-bullet-item"><i class="fa-solid fa-laptop-code"></i> <span data-i18n="exp2_b1">Interactive Python web features & modules</span></li>
+              <li class="exp-bullet-item"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="exp2_b2">Curriculum technical tools & student portals</span></li>
+            </ul>
+          </div>
+          <div class="tags-row">
+            <span class="tag-badge">Python</span>
+            <span class="tag-badge">Web Tech</span>
+            <span class="tag-badge">EdTech</span>
+          </div>
+        </div>
+
+        <!-- Exp 3: Freelancing -->
+        <div class="glass-panel experience-card">
+          <div>
+            <div class="exp-header">
+              <span class="exp-company-tag" data-i18n="exp3_type">Global Solutions</span>
+              <span class="exp-role-tag" data-i18n="exp3_role">Independent</span>
+            </div>
+            <h3 class="exp-company-name" data-i18n="exp3_company">Freelancing</h3>
+            <div class="exp-title" data-i18n="exp3_title">Full-Stack Solutions & Custom Systems</div>
+            <p class="exp-description" data-i18n="exp3_desc">
+              Delivering bespoke web tools, robust financial algorithm indicators (PineScript), custom web scrapers, and cross-platform desktop UI tools.
+            </p>
+            <ul class="exp-bullet-list">
+              <li class="exp-bullet-item"><i class="fa-solid fa-cubes"></i> <span data-i18n="exp3_b1">End-to-end bespoke customer software platforms</span></li>
+              <li class="exp-bullet-item"><i class="fa-solid fa-chart-line"></i> <span data-i18n="exp3_b2">Algorithmic trading scripts & data scrapers</span></li>
+            </ul>
+          </div>
+          <div class="tags-row">
+            <span class="tag-badge">PineScript</span>
+            <span class="tag-badge">Web Scraping</span>
+            <span class="tag-badge">Full-Stack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 03 // CATEGORIZED SKILLS & STACK ================= -->
+  <section id="skills" class="section-wrapper">
+    <div class="container">
+      <div class="section-tag" data-i18n="sec3_tag">03 // TECHNICAL ARSENAL</div>
+      <h2 class="section-title" data-i18n="sec3_title">Categorized Skills & Stack</h2>
+      <p class="section-subtitle" data-i18n="sec3_subtitle">
+        Pragmatically chosen technologies tested across high-concurrency production and interactive interfaces.
+      </p>
+
+      <div class="skills-grid">
+        <!-- 1. Backend & Frameworks -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill1_title">Backend & Frameworks</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill1_desc">High performance, DRY architectures and RESTful service design.</p>
+          <div class="tags-row">
+            <span class="tag-badge">● Python</span>
+            <span class="tag-badge">● Django</span>
+            <span class="tag-badge">● Django REST Framework</span>
+          </div>
+        </div>
+
+        <!-- 2. Databases & Storage -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-database"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill2_title">Databases & Storage</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill2_desc">ACID compliance, query plan optimization and flexible document stores.</p>
+          <div class="tags-row">
+            <span class="tag-badge">● PostgreSQL</span>
+            <span class="tag-badge">● MySQL</span>
+            <span class="tag-badge">● MongoDB</span>
+          </div>
+        </div>
+
+        <!-- 3. Frontend Interfaces -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-desktop"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill3_title">Frontend Interfaces</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill3_desc">Responsive layouts, fluid ergonomics, and semantic markup.</p>
+          <div class="tags-row">
+            <span class="tag-badge">● HTML5</span>
+            <span class="tag-badge">● CSS3</span>
+            <span class="tag-badge">● Bootstrap</span>
+            <span class="tag-badge">● JavaScript</span>
+          </div>
+        </div>
+
+        <!-- 4. Cross Platform & Mobile -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-mobile-screen"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill4_title">Cross Platform & Mobile</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill4_desc">Native-feeling desktop GUI utilities and responsive mobile clients.</p>
+          <div class="tags-row">
+            <span class="tag-badge">● Flutter</span>
+            <span class="tag-badge">● PyQt5</span>
+          </div>
+        </div>
+
+        <!-- 5. Specialized & Analytics -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-chart-simple"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill5_title">Specialized & Analytics</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill5_desc">High-speed content harvesting and technical financial indicators.</p>
+          <div class="tags-row">
+            <span class="tag-badge">● PineScript (TradingView)</span>
+            <span class="tag-badge">● Web Scraping</span>
+          </div>
+        </div>
+
+        <!-- 6. Engineering Rigor -->
+        <div class="glass-panel skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="skill-card-title" data-i18n="skill6_title">Engineering Rigor</h3>
+          </div>
+          <p class="skill-card-desc" data-i18n="skill6_desc">Sustainable codebases designed to evolve without technical debt.</p>
+          <div class="tags-row">
+            <span class="tag-badge" style="color:#10B981">Clean Coding</span>
+            <span class="tag-badge" style="color:#10B981">SOLID Principles</span>
+            <span class="tag-badge" style="color:#10B981">Agile Methodology</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 04 // FEATURED PROJECTS ================= -->
+  <section id="projects" class="section-wrapper" style="background: rgba(11, 15, 23, 0.5);">
+    <div class="container">
+      <div class="section-tag" data-i18n="sec4_tag">04 // SHIPPED SOLUTIONS</div>
+      <h2 class="section-title" data-i18n="sec4_title">Featured Projects</h2>
+      <p class="section-subtitle" data-i18n="sec4_subtitle">
+        Production deployments crafted with clean Python patterns, integrated database models, and resilient runtime performance.
+      </p>
+
+      <div class="projects-grid">
+        <!-- Project 1: Museum Garden -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-mockup-frame">
+              <!-- Visual Mockup Image: Museum Garden Portal -->
+              <img src="./assets/images/museum_garden_mockup.jpg" alt="Museum Garden Full-Stack Django Exhibition App" class="project-mockup-img" loading="lazy" referrerpolicy="no-referrer">
+
+              <div class="mockup-overlay-badge">
+                <span class="pulse-dot"></span>
+                <span data-i18n="proj1_badge">Live Production v1.8.4</span>
+              </div>
+            </div>
+
+            <div class="project-subhead">
+              <i class="fa-solid fa-code-branch" style="color:var(--cyan)"></i>
+              <span data-i18n="proj1_sub">FULL-STACK DJANGO APP</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj1_title">Museum Garden</h3>
+            <p class="project-quote" data-i18n="proj1_quote">
+              "The best site for ever" — A full-stack web destination showcasing gardens, curated botanical exhibitions, and cultural tours. Featuring custom administrative tooling, dynamic content indexing, and frictionless user interaction.
+            </p>
+
+            <div class="tags-row" style="margin-top:0.75rem;">
+              <span class="tag-badge">Django Framework</span>
+              <span class="tag-badge">PostgreSQL</span>
+              <span class="tag-badge">REST APIs</span>
+              <span class="tag-badge">PythonAnywhere Deploy</span>
+              <span class="tag-badge">Bootstrap Responsive UI</span>
+            </div>
+          </div>
+
+          <div class="project-footer">
+            <a href="https://mhyaghubi.pythonanywhere.com" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.5rem 1rem; font-size:0.85rem;" data-i18n="proj1_btn">
+              View Live Project ↗
+            </a>
+            <span class="project-host-note" data-i18n="proj1_host">Hosted at mhyaghubi.pythonanywhere.com</span>
+          </div>
+        </div>
+
+        <!-- Project 2: AlphaScript & Scraper Suite -->
+        <div class="glass-panel project-card">
+          <div>
+            <div class="project-mockup-frame">
+              <!-- Visual Mockup Image: Quantum Trading Hub / AlphaScript & Scraper Suite -->
+              <img src="./assets/images/alphascript_trading_mockup.jpg" alt="AlphaScript & Scraper Suite TradingView Dashboard" class="project-mockup-img" loading="lazy" referrerpolicy="no-referrer">
+
+              <div class="mockup-overlay-badge" style="border-color:rgba(56, 189, 248, 0.4); color:var(--cyan)">
+                <i class="fa-solid fa-chart-line"></i>
+                <span data-i18n="proj2_badge">Algorithmic & Scraper</span>
+              </div>
+            </div>
+
+            <div class="project-subhead">
+              <i class="fa-solid fa-chart-candlestick" style="color:var(--cyan)"></i>
+              <span data-i18n="proj2_sub">TRADINGVIEW & AUTOMATION</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj2_title">AlphaScript & Scraper Suite</h3>
+            <p class="project-quote" data-i18n="proj2_quote">
+              Custom quantitative trading indicators formulated on PineScript coupled with automated Python scrapers collecting live market signals for asynchronous ingestion.
+            </p>
+
+            <div class="tags-row" style="margin-top:0.75rem;">
+              <span class="tag-badge">PineScript</span>
+              <span class="tag-badge">BeautifulSoup / Selenium</span>
+              <span class="tag-badge">Async Pipeline</span>
+            </div>
+          </div>
+
+          <div class="project-footer">
+            <button class="btn-primary btn-launch-telegram" data-service="AlphaScript & Quantitative Trading Indicator Suite" style="padding: 0.5rem 1.1rem; font-size:0.85rem;" data-i18n="proj2_btn">
+              Order / Inquire Architecture →
+            </button>
+            <a href="./products.html" class="btn-glass" style="padding: 0.5rem 0.85rem; font-size:0.8rem;">
+              All Products <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 05 // CONTACT & CONNECT ================= -->
+  <section id="contact" class="section-wrapper">
+    <div class="container">
+      <div class="section-tag" data-i18n="sec5_tag">05 // LET'S BUILD TOGETHER</div>
+      <h2 class="section-title" data-i18n="sec5_title">Contact & Connect</h2>
+      <p class="section-subtitle" data-i18n="sec5_subtitle">
+        Whether you need a high-scale Django backend, database tuning, automated pipelines, or end-to-end full-stack consulting, let's start a conversation.
+      </p>
+
+      <div class="contact-grid">
+        <!-- Left: Direct Mailbox & Links -->
+        <div>
+          <div class="direct-mail-box">
+            <div class="mail-label" data-i18n="direct_mailbox">Direct Mailbox</div>
+            <div class="mail-address">m.h.yaghubi.info@gmail.com</div>
+            <button class="btn-glass btn-copy-email" style="font-size:0.85rem; padding:0.45rem 0.85rem;" data-i18n="btn_copy_email">
+              <i class="fa-regular fa-copy"></i> Copy Email
+            </button>
+          </div>
+
+          <!-- Telegram Quick Order Callout -->
+          <div class="telegram-order-card">
+            <div class="tg-badge">
+              <i class="fa-brands fa-telegram"></i> Telegram Direct
+            </div>
+            <h4 style="font-family:var(--font-heading); font-size:1.15rem; color:#FFF; margin-bottom:0.45rem;" data-i18n="tg_card_title">
+              Direct Telegram Ordering & Instant Hire
+            </h4>
+            <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.15rem;" data-i18n="tg_card_desc">
+              Need immediate sprint kickoff or architectural review? Launch a pre-configured inquiry directly in Telegram for immediate response.
+            </p>
+            <button class="btn-primary btn-launch-telegram" data-service="High-Impact Django Backend Sprint" style="width: 100%; justify-content: center;" data-i18n="tg_btn_action">
+              <i class="fa-brands fa-telegram"></i> Launch Telegram Order
+            </button>
+          </div>
+
+          <!-- Social Anchors -->
+          <div style="margin-top:2rem;">
+            <div class="mail-label" style="margin-bottom:0.75rem;" data-i18n="follow_me">FOLLOW ME HERE</div>
+            <div class="social-links-row">
+              <a href="https://linkedin.com/in/mhyaghubi" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://t.me/mhycoding" target="_blank" rel="noopener noreferrer" class="social-btn" title="Telegram (@mhycoding)">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="https://github.com/mhyaghubi" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://youtube.com/@mhyaghubi" target="_blank" rel="noopener noreferrer" class="social-btn" title="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://x.com/mhyaghubi" target="_blank" rel="noopener noreferrer" class="social-btn" title="X (Twitter)">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="mailto:m.h.yaghubi.info@gmail.com" class="social-btn" title="Email Direct">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Send a Message Form -->
+        <div class="glass-panel" style="padding:2rem;">
+          <h3 style="font-family:var(--font-heading); font-size:1.4rem; color:#FFF; margin-bottom:0.25rem;" data-i18n="form_send_header">
+            Send a Message
+          </h3>
+          <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem;" data-i18n="form_response_time">
+            I typically respond within 24 hours.
+          </p>
+
+          <form id="contactForm">
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
+              <div class="form-group">
+                <label class="form-label" data-i18n="lbl_your_name">Your Name</label>
+                <input type="text" name="name" class="form-input" placeholder="e.g. Alex Mercer" data-i18n-ph="ph_name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" data-i18n="lbl_your_email">Your Email</label>
+                <input type="email" name="email" class="form-input" placeholder="e.g. alex@enterprise.com" data-i18n-ph="ph_email" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" data-i18n="lbl_project_scope">Project Scope / Subject</label>
+              <input type="text" name="scope" class="form-input" placeholder="e.g. High-Throughput Django REST API Consultation" data-i18n-ph="ph_scope" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" data-i18n="lbl_message">Message</label>
+              <textarea name="message" class="form-textarea" placeholder="Describe your architecture requirements, timelines, or questions..." data-i18n-ph="ph_message" required></textarea>
+            </div>
+
+            <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-top:0.5rem;">
+              <button type="submit" class="btn-primary" data-i18n="btn_send_message">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <button type="button" class="btn-glass btn-launch-telegram" data-service="Full Consultation" data-i18n="btn_send_telegram">
+                <i class="fa-brands fa-telegram" style="color:#38BDF8"></i> Order via Telegram
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SITE FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>MH.Yaghubi <span style="font-size:0.85rem; color:var(--teal-emerald); font-weight:400;">Creative Django Developer</span></h4>
+          <p data-i18n="footer_desc">Architecting high-concurrency backend services, asynchronous pipelines, and reactive technical web platforms.</p>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <a href="./about.html" class="nav-link" data-i18n="nav_about">About</a>
+          <a href="./products.html" class="nav-link" data-i18n="nav_products">Products</a>
+          <a href="./contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <span class="pulse-dot"></span>
+          <span data-i18n="footer_django_rigor">Designed & Engineered with Django Rigor</span>
+        </div>
+        <div data-i18n="footer_copyright">
+          © 2025 Mohammad Hossein Yaghubi. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification placeholder -->
+  <div class="toast-notice"></div>
+
+  <!-- Scripts -->
+  <script src="./assets/js/i18n.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
